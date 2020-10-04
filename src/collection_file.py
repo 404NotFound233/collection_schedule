@@ -19,7 +19,7 @@ class CollectionFile:
         self.records_num = records_num
         self.state = 'C1'
         self.come_in_date = come_in_date
-        self.refresh_date = self.come_in_date
+        self.records_remain = None
 
     #获取当前采集文件当前状态下处理要多久
     def get_time_cost(self):
